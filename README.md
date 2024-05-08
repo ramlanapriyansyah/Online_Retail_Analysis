@@ -1,5 +1,5 @@
 # Latar Belakang
-Data transaksi adalah sumber berharga untuk mendapatkan wawasan bisnis yang mendalam bagi sebuah perusahaan. Analisis terhadap data transaksi dapat memberikan gambaran yang jelas terkait kinerja bisnis selama periode waktu tertentu, sehingga memberikan informasi penting untuk pengambilan keputusan bisnis berikutnya. Hal ini memungkinkan perusahaan untuk mengevaluasi apakah kinerja bisnis telah memuaskan atau memerlukan peninjauan lebih lanjut.
+Data transaksi merupakan sumber berharga untuk mendapatkan wawasan bisnis yang mendalam bagi sebuah perusahaan. Analisis terhadap data transaksi dapat memberikan gambaran yang jelas terkait kinerja bisnis selama periode waktu tertentu, sehingga memberikan informasi penting untuk pengambilan keputusan bisnis berikutnya. Hal ini memungkinkan perusahaan untuk mengevaluasi apakah kinerja bisnis telah memuaskan atau memerlukan peninjauan lebih lanjut.
 
 # Rumusan Masalah
 1. Bagaimana performa bisnis perusahaan dalam periode yang ada?
@@ -16,7 +16,7 @@ Dalam perhitungan **Recency**, diasumsikan bahwa waktu saat ini (PRESENT) adalah
 # Analisis Data
 ## A. Sales Analysis
 ### 1. Total Sales
-![image](https://github.com/ramlanapriyansyah/Online_Retail_Analysis/assets/135192484/3ec2d86b-eb67-4817-afbc-b12a89ae26a8)
+![image](https://github.com/ramlanapriyansyah/Online_Retail_Analysis/assets/135192484/ef84078e-7917-4ed8-9e68-830fd57973a0)
 
 Terjadi fluktuasi pada total order dan total pendapatan yang diterima perusahaan dari bulan Desember 2010 hingga bulan Agustus 2011, namun terjadi kenaikan pesat dari bulan Agustus hingga November 2011. </br>
 Tidak ada keterangan lebih lanjut mengenai tren yang terjadi, namun diasumsikan bahwa tren kenaikan terjadi karena pada bulan Agustus-November merupakan musim liburan seperti _Back-to-school_, Hari Buruh, Tahun Baru, _Thanksgiving_, dan Natal. Konsumen cenderung berbelanja lebih banyak untuk kebutuhan liburan, termasuk hadiah, pakaian, dan barang-barang lainnya.
@@ -26,6 +26,30 @@ Tidak ada keterangan lebih lanjut mengenai tren yang terjadi, namun diasumsikan 
 
 
 Produk yang paling banyak terjual adalah sebuah mainan bernama WORLD WAR 2 GLIDERS ASSTD DESIGNS, yaitu sebanyak 51,852 item selama periode Desember 2010 - November 2011, disusul JUMBO BAG RED RETROSPOT, ASSORED COLOUR BIRD ORNAMENT, WHITE HANGING HEART T-LIGHT HOLDER, dan PACK OF 72 RETROSPOT CAKE CASES.
+
+### 3. Sales by Country
+![image](https://github.com/ramlanapriyansyah/Online_Retail_Analysis/assets/135192484/8d374329-2d1d-4b8b-bf45-e245b7297fd7)
+
+Dari grafik di atas dapat dilihat bahwa revenue terbesar berasal dari United Kingdom, yang mana merupakan hal yang wajar, mengingat perusahaan memang berlokasi di negara tersebut. </br>
+Selain itu, kemampuan ekspor perusahaan juga bisa dibilang cukup baik. Dari 4 negara teratas, perusahaan mampu memperoleh revenue dengan rata-rata sekitar USD 234,000. 
+
+## B. Customer Analysis
+Customer analysis atau analisis pelanggan dilakukan menggunakan metode RFM Analysis. </br>
+RFM Analysis adalah teknik yang digunakan dalam pemasaran dan analisis pelanggan untuk memahami perilaku pembelian pelanggan dan mengelompokkan mereka berdasarkan tiga dimensi utama:
+
+1. **Recency (Ketepatan Waktu)**: Mengukur seberapa baru pelanggan telah melakukan pembelian.
+2. **Frequency (Frekuensi)**: Mengukur seberapa sering pelanggan melakukan pembelian dalam periode waktu tertentu.
+3. **Monetary (Moneter)**: Mengukur seberapa banyak uang yang dihabiskan oleh pelanggan dalam periode waktu tertentu.
+
+![image](https://github.com/ramlanapriyansyah/Online_Retail_Analysis/assets/135192484/e068fa75-3368-49d4-9d9a-3d04bd46685f)
+
+Tabel di atas merupakan top customers yang diperoleh dari hasil analisis RFM. </br>
+Terlihat bahwa customer dengan ID 14646 memiliki nilai monetary tertinggi, yaitu dengan total belanja sebesar USD 279,489. Customer ini telah melakukan pembelian sebanyak 2085 kali, dengan riwayat transaksi terakhir pada 6 hari yang lalu.
+
+
+
+
+
 
 
 
