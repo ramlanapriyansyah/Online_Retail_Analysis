@@ -8,7 +8,7 @@ Data transaksi merupakan sumber berharga untuk mendapatkan wawasan bisnis yang m
 4. Bagaimana segmentasi pelanggan berdasarkan analisis RFM? Siapa saja pelanggan yang masuk dalam kategori top customers, dan apa karakteristiknya?
 
 # Data dan Asumsi
-Dataset merupakan kumpulan data transaksi pada perusahaan retail _online_ yang berlokasi di United Kingdom. Dataset ini terdiri dari 9 kolom dan 541,908 baris, seperti yang dapat dilihat di: `online_retail_dataset.csv`
+Dataset merupakan kumpulan data transaksi pada perusahaan retail _online_ yang berlokasi di United Kingdom. Dataset ini terdiri dari 9 kolom dan 541,908 baris, seperti yang dapat dilihat di: [`online_retail_dataset`](https://github.com/ramlanapriyansyah/Online_Retail_Analysis/blob/main/online_retail_dataset.zip)
 
 Asumsi: </br>
 Dalam perhitungan **Recency**, diasumsikan bahwa waktu saat ini (PRESENT) adalah 15 Desember 2011, hal ini didasarkan pada data terakhir yang tercatat yaitu 9 Desember 2011.
@@ -31,7 +31,7 @@ Produk yang paling banyak terjual adalah sebuah mainan bernama WORLD WAR 2 GLIDE
 ![image](https://github.com/ramlanapriyansyah/Online_Retail_Analysis/assets/135192484/8d374329-2d1d-4b8b-bf45-e245b7297fd7)
 
 Dari grafik di atas dapat dilihat bahwa revenue terbesar berasal dari United Kingdom, yang mana merupakan hal yang wajar, mengingat perusahaan memang berlokasi di negara tersebut. </br>
-Selain itu, kemampuan ekspor perusahaan juga bisa dibilang cukup baik. Dari 4 negara teratas, perusahaan mampu memperoleh revenue dengan rata-rata sekitar USD 234,000. 
+Disamping itu, kemampuan ekspor perusahaan bisa dibilang cukup baik. Dari 4 negara teratas, perusahaan mampu memperoleh revenue dengan rata-rata sekitar USD 234,000. 
 
 ## B. Customer Analysis
 Customer analysis atau analisis pelanggan dilakukan menggunakan metode RFM Analysis. </br>
@@ -45,6 +45,12 @@ RFM Analysis adalah teknik yang digunakan dalam pemasaran dan analisis pelanggan
 
 Tabel di atas merupakan top customers yang diperoleh dari hasil analisis RFM. </br>
 Terlihat bahwa customer dengan ID 14646 memiliki nilai monetary tertinggi, yaitu dengan total belanja sebesar USD 279,489. Customer ini telah melakukan pembelian sebanyak 2085 kali, dengan riwayat transaksi terakhir pada 6 hari yang lalu.
+
+# Kesimpulan
+
+# Saran
+
+*Seluruh proses analisis dapat dilihat pada file jupyter notebook berikut: [`jupyter_notebook_file`](https://github.com/ramlanapriyansyah/Online_Retail_Analysis/blob/main/jupyter_notebook_file.ipynb)
 
 
 
