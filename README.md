@@ -51,7 +51,7 @@ RFM Analysis is a technique used in marketing and customer analysis to understan
 The table above shows the top customers based on the RFM analysis. </br>
 The highest monetary value belongs to the customer with ID 14646, who has spent a total of USD 279,489. This customer has made 2,085 total purchases, with the most recent transaction occurring 6 days ago.
 
-# Conclution
+# Conclusion
 1. The company’s business performance was quite good. This was reflected by the increasing sales trend in the last four months. 
 2. The top products based on the total items sold were very diverse, including accessories, toys, and household appliances. The best-selling product was a toy called WORLD WAR 2 GLIDERS ASSTD DESIGN. 
 3. The highest revenue comes from the United Kingdom with total revenue of USD 6,767,873.
